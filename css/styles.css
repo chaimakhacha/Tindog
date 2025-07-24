@@ -1,0 +1,163 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+h1 , h2 , h3 , h4 , h5 ,h6{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900; 
+}
+p{
+    color: #8f8f8f;
+}
+
+  /* headings */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    }
+/* container */
+
+.container-fluid{
+    padding:7% 15%;
+}
+
+/* sections */
+
+.colored-section{
+    background-color: #ff4c64;
+    color: white;
+}
+
+.white-section{
+    background-color: #fff;
+
+}
+
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: "Ubuntu", system-ui;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat Alternates", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+}
+  /* title */
+#title .container-fluid{
+    padding: 3%  15% 5%;    /* t lr b */
+    text-align: left;
+}
+
+ /* download buttons */
+ .download-btn{
+    margin: 5% 3% 5% 0;
+ }
+ /* title image */
+ .title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+ }
+/* Features */
+#features{
+    position: relative;
+}
+.features-col{
+    padding: 1%;
+}
+.feature-title{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.features-icons{
+    margin: 5% 3% 7% 3%;
+    color: #ef8172;
+    align-items: center;
+}
+.features-icons:hover{
+    color: #ff4c64;
+}
+
+ /* testimonial section */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonials-img{
+    border-radius: 100%;
+    width: 16%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom:5% ;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px;
+}
+ /* pricing section*/
+ #pricing{
+    padding: 7% 10%;
+ }
+ .pricing-col{
+    padding: 3% 2%;
+    
+ }
+.pricing-title{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+ .price-text{
+    font-size: 3rem;
+    line-height: 2rem;
+ }
+/* call to action section */
+.cta-heading{
+    line-height: 1.5; 
+    font-size: 3rem;
+}
+.fa-download{
+    margin-right: 2%;
+}
+/* footer */
+.fa-footer{
+    margin: 2% 1%;/* tb lr */
+    color: black;
+}
+.fa-footer:hover{
+    color: #ff4c64;
+    cursor: pointer;
+}
+@media (max-width:1028px){
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+    #title .container-fluid{
+      text-align: center;
+    }
+    .fa-footer{
+        font-size: 2rem;
+    }
+
+ }
